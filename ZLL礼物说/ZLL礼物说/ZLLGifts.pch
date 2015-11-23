@@ -1,0 +1,70 @@
+//
+//  ZLLGifts.pch
+//  ZLL礼物说
+//
+//  Created by lanou3g on 15/11/16.
+//  Copyright © 2015年 zhangliang.com. All rights reserved.
+//
+
+#ifndef ZLLGifts_pch
+#define ZLLGifts_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <AVOSCloud/AVOSCloud.h>
+#import "MBProgressHUD.h"
+
+#import "UIImageView+WebCache.h"
+
+#import "MJRefresh.h"
+
+#import "SUNSlideSwitchView.h"
+
+#import "AFNetworking.h"
+
+#import "FMDatabase.h"
+
+#define kURL_1 @"http://api.liwushuo.com/v2/channels/100/items?ad=2&gender=1&generation=1&limit=20&offset=0"
+#define kURL_2 @"http://api.liwushuo.com/v2/banners?channel=iOS"
+#define kURL_3 @"http://api.liwushuo.com/v2/promotions?gender=1&generation=1"
+//礼物
+#define kURL_4 @"http://api.liwushuo.com/v2/channels/111/items?gender=1&generation=1&limit=20&offset=0"
+//美食
+#define kURL_5 @"http://api.liwushuo.com/v2/channels/118/items?gender=1&generation=1&limit=20&offset=0"
+//数码
+#define kURL_6 @"http://api.liwushuo.com/v2/channels/121/items?gender=1&generation=1&limit=20&offset=0"
+//运动
+#define kURL_7 @"http://api.liwushuo.com/v2/channels/123/items?gender=1&generation=1&limit=20&offset=0"
+//海淘
+#define kURL_8 @"http://api.liwushuo.com/v2/channels/129/items?gender=1&generation=1&limit=20&offset=0"
+//涨姿势
+#define kURL_9 @"http://api.liwushuo.com/v2/channels/120/items?gender=1&generation=1&limit=20&offset=0"
+//热门
+#define kURL_10 @"http://api.liwushuo.com/v2/items?gender=1&generation=1&limit=50&offset=0"
+
+//分类的首页网址
+#define CLASSIFYURL @"http://api.liwushuo.com/v2/channel_groups/all?"
+
+#define kURL_A @"http://api.liwushuo.com/v2/channels/100/items?ad=2&gender=1&generation=1&limit=20&offset="
+//礼物
+#define kURL_B @"http://api.liwushuo.com/v2/channels/111/items?gender=1&generation=1&limit=20&offset="
+//美食
+#define kURL_C @"http://api.liwushuo.com/v2/channels/118/items?gender=1&generation=1&limit=20&offset="
+//数码
+#define kURL_D @"http://api.liwushuo.com/v2/channels/121/items?gender=1&generation=1&limit=20&offset="
+//运动
+#define kURL_E @"http://api.liwushuo.com/v2/channels/123/items?gender=1&generation=1&limit=20&offset="
+//海淘
+#define kURL_F @"http://api.liwushuo.com/v2/channels/129/items?gender=1&generation=1&limit=20&offset="
+//涨姿势
+#define kURL_G @"http://api.liwushuo.com/v2/channels/120/items?gender=1&generation=1&limit=20&offset="
+//热门
+#define kURL_H @"http://api.liwushuo.com/v2/items?gender=1&generation=1&limit=50&offset="
+
+//首页的点击网址
+#define kURL_SY @"http://api.liwushuo.com/v2/posts/"
+
+//分类的TableView展示
+#define kURL_FL @"http://api.liwushuo.com/v2/channels/%@/items?limit=20&offset=%ld"
+
+#endif /* ZLLGifts_pch */

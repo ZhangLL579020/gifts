@@ -1,0 +1,13 @@
+PODS:
+  - AVOSCloud (3.1.6.3)
+  - MBProgressHUD (0.9.1)
+
+DEPENDENCIES:
+  - AVOSCloud
+  - MBProgressHUD (~> 0.9.1)
+
+SPEC CHECKSUMS:
+  AVOSCloud: c71c27f9463e361d5224a762db9db46d8fc62c3e
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+
+COCOAPODS: 0.39.0
